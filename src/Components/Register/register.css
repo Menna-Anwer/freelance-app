@@ -1,0 +1,123 @@
+h1{
+  text-align: center;
+  color: #002ead;
+  font-family: GESSTwo;
+}
+.form-cont{
+    width: 100%;
+    flex-grow: 0;
+    padding: 37.5px 22.2px 49.5px 22.5px;
+    border: solid 1px #989898;
+    border-radius: 5px;
+    font-family: GESSTwo;
+    background-color: #f2f5f7;
+    margin: auto;
+}
+input {
+    text-align: right;
+    padding: 10px;
+    height: 41px;
+}
+.col-form-label{
+    font-weight: bold;
+    width: 20% !important;
+}
+option{
+    text-align: right;
+    padding: 10px;
+}
+
+.check-input{
+    float: right !important;
+}
+.input-cont{
+    width: 80% !important;
+}
+.radio-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.radio-container{
+    width: 100% !important;
+}
+.submit{
+    width: 300px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 8px 105px 18px 106px;
+    border: solid 1px #40adf5;
+    display: block !important;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    background-image: linear-gradient(8deg, #04c5b8 -61%, #024d97 91%);
+    
+}
+
+
+@media (min-width: 576px) { 
+    .form-cont{
+        width: 100% ;
+        flex-grow: 0;
+        padding: 37.5px 22.2px 49.5px 22.5px;
+    }
+    .radio-button{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .input-cont{
+        width: 85% !important;
+    }
+    .col-form-label{
+        font-weight: bold;
+        width: 15% !important;
+    }
+   
+    .label-radio{
+        width: 125px !important;    
+    }
+}
+@media (min-width: 768px) {
+    .form-cont{
+        width: 70%;
+        flex-grow: 0;
+        padding: 37.5px 28.2px 49.5px 22.5px;
+    }
+    input {
+        height: 51px;
+    }
+}
+@media (min-width: 992px) { 
+    .form-cont{
+        padding: 37.5px 46.2px 78.5px 129.5px;
+    }
+    
+    .col-form-label{
+        width: 25% !important;
+        font-size: 20px !important;
+    }
+    .input-cont{
+        width: 75% !important;
+    }
+}
+@media (min-width: 1200px) { 
+    .form-cont{
+        width: 70%;
+        flex-grow: 0;
+        padding: 37.5px 46.2px 78.5px 129.5px;
+    }
+    .label-radio{
+        margin-left: 5% !important;
+        font-size: 20px !important;
+    }
+    .col-form-label{
+        font-size: 22px !important;
+    }
+    .radio-container{
+        width: 70% !important;
+    }
+}
+@media (min-width: 1400px) { }

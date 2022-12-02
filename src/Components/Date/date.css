@@ -1,0 +1,38 @@
+.date-container{
+    direction: rtl;
+}
+.date-input{
+    width: 40%;
+    height: 44px;
+    padding: 13.5px 37.5px 12.5px 23.5px;
+    border: solid 1px #bdbdbd;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+
+@media (min-width: 576px) { 
+    .date-input{
+        width: 30%;
+        height: 44px;
+       
+    }
+}
+@media (min-width: 768px) {
+    .date-input{
+        width: 30%;
+        height: 44px;
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+}
+@media (min-width: 992px) { 
+    .date-input{
+        width: 17%;
+        height: 44px;
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+}
+@media (min-width: 1200px) { }
+@media (min-width: 1400px) { }
